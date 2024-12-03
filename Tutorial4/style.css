@@ -1,78 +1,95 @@
+/* General body styling */
 body {
-font-family: tahoma;
-color: #282828;
-margin: 0px;
+font-family: tahoma; /* Set font to Tahoma */
+color: #282828; /* Set text color */
+margin: 0px; /* Remove default margin */
 }
 
+/* Navigation bar styling */
 .nav-bar {
-background: linear-gradient(-90deg, #84CF6A, #16C0B0);
-height: 60px;
-margin-bottom: 15px;
+background: linear-gradient(-90deg, #84CF6A, #16C0B0); /* Gradient background from green to teal */
+height: 60px; /* Set height of navbar */
+margin-bottom: 15px; /* Add space below the navbar */
 }
 
+/* Product section styling */
 .product {
-display: flex;
+display: flex; /* Use flexbox layout for the product section */
 }
 
+/* Image styling for product */
 img {
-border: 1px solid #d8d8d8;
-width: 70%;
-margin: 40px;
-box-shadow: 0px .5px 1px #d8d8d8;
+border: 1px solid #d8d8d8; /* Add a border around the image */
+width: 70%; /* Set the width of the image */
+margin: 40px; /* Add space around the image */
+box-shadow: 0px .5px 1px #d8d8d8; /* Add a subtle shadow effect */
 }
 
+/* Container for product image */
 .product-image {
-flex-basis: 700px;
+flex-basis: 700px; /* Set a fixed width for the image container */
 }
 
+/* Container for product information */
 .product-info {
-margin-top: 10px;
-flex-basis: 500px;
+margin-top: 10px; /* Add space above the product info */
+flex-basis: 500px; /* Set a fixed width for the product info */
 }
 
+/* Styling for color selection boxes */
 .color-box {
-width: 40px;
-height: 40px;
-margin-top: 5px;
+width: 40px; /* Set width of the color box */
+height: 40px; /* Set height of the color box */
+margin-top: 5px; /* Add space above the color box */
 }
 
+/* Cart button styling */
 .cart {
-margin-right: 25px;
-float: right;
-border: 1px solid #d8d8d8;
-padding: 5px 20px;
+margin: 0 auto; /* Automatically add equal margin to both sides */
+text-align: center; /* Center the content inside the cart */
+border: 1px solid #d8d8d8; /* Add a border around the cart button */
+padding: 5px 20px; /* Add padding inside the cart button */
+width: max-content; /* Ensure the width adjusts to the content */
 }
 
+
+/* Button styling */
 button {
-margin-top: 30px;
-border: none;
-background-color: #1E95EA;
-color: white;
-height: 40px;
-width: 100px;
-font-size: 14px;
-} 
+margin-top: 30px; /* Add space above the button */
+border: none; /* Remove the border */
+background-color: #1E95EA; /* Set background color to blue */
+color: white; /* Set text color to white */
+height: 40px; /* Set height of the button */
+width: 100px; /* Set width of the button */
+font-size: 14px; /* Set font size */
+}
 
+/* Disabled button styling */
 .disabledButton {
-background-color: #d8d8d8;
+background-color: #d8d8d8; /* Set a grey background for disabled buttons */
 }
 
+/* Review form styling */
 .review-form {
-width: 30%;
-padding: 20px;
-border: 1px solid #d8d8d8;  
+width: 30%; /* Set width of the review form */
+padding: 20px; /* Add padding inside the form */
+border: 1px solid #d8d8d8; /* Add a border around the form */
 }
 
+/* Input field styling */
 input {
-width: 100%;  
-height: 25px;
-margin-bottom: 20px;
+width: 100%; /* Make input fields take up the full width */
+height: 25px; /* Set height of input fields */
+margin-bottom: 20px; /* Add space below input fields */
 }
 
+/* Textarea styling */
 textarea {
-width: 100%;
-height: 60px;
+width: 100%; /* Make textarea take up the full width */
+height: 60px; /* Set height of the textarea */
 }
+
+/* Out of stock text styling */
 .outOfStock {
-    text-decoration: line-through;
+text-decoration: line-through; /* Add a strikethrough effect for out-of-stock items */
 }

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>COMP1779 - JavaScript Tutorial 1</title>
+<!-- The <title> tag sets the title of the webpage, which appears on the browser tab. -->
+</head>
+<body>
+<!-- The <body> section contains the main content of the webpage. -->
+
+<p id="text"></p>
+<!-- The <p> tag is used to define a paragraph.
+        The "id" attribute assigns a unique identifier "text" to this paragraph, 
+        which allows JavaScript to target and update this element. -->
+
+<script>
+    // The <script> tag contains JavaScript code that will run in the browser.
+
+    // document.getElementById("text") selects the HTML element with the id "text".
+    // .innerHTML is used to update the content of the selected element.
+    // This line changes the content inside the <p> tag to "Hello World".
+    document.getElementById("text").innerHTML = "Hello World";
+</script>
+</body>
+</html>
